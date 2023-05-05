@@ -13,12 +13,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
 </div>
-
 ---
-
-<p align="center"> Few lines describing your project.
-    <br>
-</p>
 
 ## 🧐 About
 
