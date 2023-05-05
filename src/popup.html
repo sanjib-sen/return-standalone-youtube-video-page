@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=utf-8" />
+    <title title="__MSG_extensionName__">__MSG_extensionName__</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary: #124347;
+        --accent: #38d3df;
+
+        --background: #111;
+        --secondary: #4d4d4d;
+        --tertiary: #424242;
+        --lightGrey: #999;
+        --white: #fff;
+      }
+      html,
+      body {
+        background-color: var(--background);
+        color: var(--white);
+        min-width: 300px;
+        min-height: 20px;
+        padding: 0.5em;
+        font-family: "Roboto", Arial, Helvetica, sans-serif;
+        font-size: 14px;
+      }
+      h1 {
+        font-size: 12px;
+      }
+      .switch::before,
+      .label-with-hover-tip::before {
+        content: attr(data-hover);
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.1s linear, opacity 0.1s linear;
+        width: 250px;
+        background-color: var(--secondary);
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 160%;
+      }
+      .fade-in {
+        opacity: 1;
+        animation-name: fadeInOpacity;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
+        animation-duration: 2s;
+      }
+
+      @keyframes fadeInOpacity {
+        0% {
+          opacity: 0;
+        }
+
+        100% {
+          opacity: 1;
+        }
+      }
+      .switch {
+        position: relative;
+        display: inline-block;
+        width: 30px;
+        height: 17px;
+        margin-bottom: 1rem;
+      }
+      .switch:last-of-type {
+        margin-bottom: 0;
+      }
+      .switch input {
+        display: none;
+      }
+      .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: var(--secondary);
+        transition: 0.4s;
+        border-radius: 34px;
+      }
+      .slider::before {
+        position: absolute;
+        content: "";
+        height: 13px;
+        width: 13px;
+        left: 2px;
+        bottom: 2px;
+        background: var(--lightGrey);
+        transition: 0.4s;
+        border-radius: 50%;
+      }
+      input:checked + .slider {
+        background: var(--accent);
+      }
+      input:checked + .slider::before {
+        transform: translateX(13px);
+        background: var(--primary);
+      }
+      .switchLabel {
+        margin-left: 0.5rem;
+        width: 250px !important;
+        transform: translateX(35px);
+        display: inline-block;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div style="grid: 200px; grid-column: auto">
+        <label class="switch">
+          <input type="checkbox" id="checkbox" />
+          <span class="slider"></span>
+        </label>
+        <h1 style="margin-bottom: 0.75rem">
+          Bring Back Standalone Youtube Video Page
+        </h1>
+      </div>
+    </center>
+    <script src="scripts/popup.js"></script>
+  </body>
+</html>
