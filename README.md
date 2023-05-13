@@ -11,7 +11,10 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/sanjib-sen/return-standalone-youtube-video-page)](https://github.com/sanjib-sen/return-standalone-youtube-video-page/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 </div>
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> f3f8f5f346ad61b5235978cafeae084b3808d65d
 
 ## 🧐 About
 
