@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Return Standalone Youtube Video Page",
     "description": "Opens the Video seperately in the same tab instead of being embedded in the page, just like it was before the update.",
-    "version": "0.1",
+    "version": "0.2",
     "author": "mail@sanjibsen.com",
     "short_name": "RYVS",
     "icons": {
@@ -13,8 +13,7 @@
     },
     "permissions": [
         "storage",
-        "tabs",
-        "activeTab"
+        "tabs"
     ],
     "action": {
         "default_icon": {
@@ -26,15 +25,7 @@
         "default_title": "Bring Back Standalone Youtube Video Page",
         "default_popup": "src/popup.html"
     },
-    "content_scripts": [
-        {
-            "js": [
-                "src/scripts/content.js"
-            ],
-            "run_at": "document_end",
-            "matches": [
-                "https://*.youtube.com/*"
-            ]
-        }
-    ]
+    "background": {
+        "service_worker": "src/scripts/background.js"
+    }
 }
