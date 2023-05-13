@@ -11,7 +11,7 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/sanjib-sen/return-standalone-youtube-video-page)](https://github.com/sanjib-sen/return-standalone-youtube-video-page/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 </div>
----
+
 
 ## 🧐 About
 
@@ -23,7 +23,7 @@ This extension supports any chromium based browser. The following browsers are t
 
 ![Chrome](https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png) | ![Firefox](https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png) | ![IE](https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png) | ![Opera](https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png) | ![Safari](https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png)
 --- | --- | --- | --- | --- |
-Latest ✔ | User Feedback Needed - | Not Supported X | Latest ✔ | Not Supported X |
+Latest ✔ | User Feedback Needed ❔ | Not Supported ❌ | Latest ✔ | Not Supported ❌ |
 
 Firefox support is coming soon based on user requests.
 
