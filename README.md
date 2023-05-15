@@ -6,9 +6,6 @@
 <h3 align="center">Return Standalone Youtube Video Page</h3>
 
 <div align="center">
-
-[![GitHub Issues](https://img.shields.io/github/issues/sanjib-sen/return-standalone-youtube-video-page)](https://github.com/sanjib-sen/return-standalone-youtube-video-page/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/sanjib-sen/return-standalone-youtube-video-page)](https://github.com/sanjib-sen/return-standalone-youtube-video-page/pulls)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 </div>
 
